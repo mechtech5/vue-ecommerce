@@ -16,6 +16,7 @@
 
 <script>
     export default {
+        props: ['fname', 'lname'],
         mounted() {
             console.log('Component mounted.')
         }
